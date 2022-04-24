@@ -116,11 +116,13 @@ public class TechJobs {
         } else {
             for(int i = 0; i < someJobs.size(); i++)
             {
+                System.out.println("*****");
                 for (Map.Entry<String, String> entry : someJobs.get(i).entrySet()) {
 
                     System.out.println(entry.getKey() + ": " + entry.getValue());
 
                 }
+                System.out.println("*****");
             }
         }
 
